@@ -1,0 +1,42 @@
+body {
+	background-color: #3399CC;
+	font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: auto;
+    width: 60%;
+    padding: 40px;
+    color: #3399CC;
+}
+h1 {
+	color: #FFFFFF;
+	font-family: Verdana, sans-serif;
+	vertical-align: center;
+}
+
+form {
+	border-radius: 25px;
+	background-color: #FFFFFF;
+	padding: 20px; 
+    width: 800px;
+    height: 800px; 
+}
+
+div {
+	padding-bottom: 40px;
+}
+
+label {
+	padding-bottom: 10px;
+}
+
+.checkboxes label {
+  display: block;
+  padding-right: 10px;
+  white-space: nowrap;
+  display: inline-block;
+  width: 180px;
+}
+
+input[type="text"] {
+
+}

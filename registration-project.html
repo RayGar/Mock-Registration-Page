@@ -1,0 +1,73 @@
+<!-- Personal Web Development Project: a page where the user registers himself, inspired by one of the exercises from the Udemy course, once I'm done with the HTML structure I will add CSS3 styling to it-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Apply</title>
+	<link rel="stylesheet" type="text/css" href="registration-style.css">
+</head>
+<body>
+	<h1>Apply</h1>
+	<form>
+		<div>
+			<label for="username">First name: 
+				<input name="firstname" id="firstname" type="text" placeholder="first name" required></label>
+			<label for="Last name">Last name: 
+				<input name="Last name" id="Last name" type="text" placeholder="last name" required></label><br><br>
+			<label for="email">Email: 
+				<input name="email" id="email" type="email" placeholder="someone@website.domain"></label>
+			<label for="username">Username: 
+				<input name="username" id="username" type="text" placeholder="username" required></label>
+			<label for="password">Password: 
+				<input name="password" id="password" type="password" placeholder="*****" required minlength="5" maxlength="10"></label><br><br>
+				<!--Placeholder value is 5 asteriks to indicate to the user that the password must be at least 5 characters-->
+		</div>
+
+		<div class="checkboxes">
+			<label>Gender</label><br><!-- when the time comes to style this I want to make the space between the header and the radio buttons shorter -->
+			<label for="male">Male: </label>
+			<input name="gender" id="male" type="radio" value="M"/><br>
+			<label for="female">Female: </label>
+			<input name="gender" id="female" type="radio" value="F"/><br>
+			<label for="other">Other: </label>
+			<input name="other" id="otherGender" type="radio" value="Other"/><br>
+			<label for="undisclosed">Prefer not to say</label>
+			<input name="undisclosed" id="undisclosedGender" type="radio"/></div><!--this one won't have a value-->
+		</div>
+		<div>
+			<label>Birthday: </label>
+				<input type="date" name="bday" required><br><br><!--not a big issue, but see if you can put a placeholder in this to make the age at least 13, 18 or whatever purpose this page is serving for-->
+
+			<label>Primary Telephone: </label>
+				<input type="tel" name="primaryTel" required><br><br>
+			<label>Secondary Telephone: </label>
+				<input type="tel" name="secondaryTel"><br><br>
+		</div>
+
+		<div>
+			<label>Cover Letter:</label><br> <textarea name="message" rows="10" cols="30">Insert our cover letter here.</textarea>
+ 			<br>
+ 		</div>
+
+ 		<div>
+ 			<label for="agreed">I agree to the terms and conditions</label>
+ 			<input id="agreed" name="agreed" type="checkbox">
+ 		</div>
+
+
+
+
+
+
+
+
+
+		<input type="reset" value="Reset"><br><!--style this using the danger button class and far away from every other input bottom, like at the bottom right of the page-->
+
+		<input type="submit">
+
+		<!--and thus we are done with the structure of the HTML page. I will come back to this dyuring the CSS and Bootstrap portion of the course-->
+	</form>
+
+</body>
+</html>

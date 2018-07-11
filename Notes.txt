@@ -1,0 +1,15 @@
+This is one of the projects that I intend to show off on my portfolio. What it supposed to be is a the HTML structure and the CSS styling needed to make a typical apllication page. Many methods of HTML have been used that are also used in actual application sites. 
+The Css is very simple as can be seen. 
+Please, note that it is not functional because there is no frontend nor backend Javascript.  This is just the structure and the styling.
+
+
+Overall, I'm happy with how it turned out.
+
+Sources used:
+
+everything that I've learned from the Udemy online course I'm currently taking.
+
+this site on the alignment issue of the radio buttons: https://stackoverflow.com/questions/30055630/align-checkboxes#answer=30055679
+
+
+
